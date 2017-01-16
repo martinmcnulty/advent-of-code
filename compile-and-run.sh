@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SCALA_HOME=~/scala/2.11.7
+SCALA_HOME=~/scala/2.11.8
 DAY=$1
 echo Compiling day $DAY...
 $SCALA_HOME/bin/scalac -d bin day${DAY}.scala
